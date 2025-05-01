@@ -1,7 +1,7 @@
 # Team Management Application
 A full-stack web application for managing team members, built with React.js, Node.js, Express, and MongoDB.
 
-#Features
+# Features
 Add new team members with profile images
 
 View all team members in a grid layout
@@ -14,14 +14,14 @@ Image upload functionality
 
 RESTful API endpoints
 
-#Prerequisites
+# Prerequisites
 Node.js (v14 or higher)
 
 MongoDB
 
 npm or yarn
 
-#Setup Instructions
+# Setup Instructions
 Clone the repository
 
 bash
@@ -50,7 +50,7 @@ Edit
 mkdir uploads
 Start MongoDB service on your machine
 
-🚀 Running the Application
+# Running the Application
 Start the backend server (from the root directory):
 
 bash
@@ -67,14 +67,14 @@ npm start
 Open your browser and navigate to:
 http://localhost:3000
 
-📡 API Endpoints
+# API Endpoints
 GET /api/members – Get all team members
 
 GET /api/members/:id – Get a specific team member
 
 POST /api/members – Add a new team member
 
-🧰 Technologies Used
+# Technologies Used
 Frontend
 React.js
 
