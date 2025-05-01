@@ -1,4 +1,4 @@
-#Team Management Application
+# Team Management Application
 A full-stack web application for managing team members, built with React.js, Node.js, Express, and MongoDB.
 
 #Features
