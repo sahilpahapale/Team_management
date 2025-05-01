@@ -1,94 +1,91 @@
-# Team Management Application
-A full-stack web application for managing team members, built with React.js, Node.js, Express, and MongoDB.
+# 🧑‍💼 Team Management Application
 
-# Features
-Add new team members with profile images
+A full-stack web application for managing team members, built with **React.js**, **Node.js**, **Express**, and **MongoDB**.
 
-View all team members in a grid layout
+---
 
-View detailed information about each team member
+## ✨ Features
 
-Responsive design using Material-UI
+- 📸 Add new team members with profile images  
+- 🧱 View all team members in a grid layout  
+- 🔍 View detailed information about each team member  
+- 📱 Responsive design using **Material-UI**  
+- 📂 Image upload functionality  
+- 🌐 RESTful API endpoints  
 
-Image upload functionality
+---
 
-RESTful API endpoints
+## 🔧 Prerequisites
 
-# Prerequisites
-Node.js (v14 or higher)
+- [Node.js](https://nodejs.org/) (v14 or higher)  
+- [MongoDB](https://www.mongodb.com/)  
+- npm or yarn  
 
-MongoDB
+---
 
-npm or yarn
+## ⚙️ Setup Instructions
 
-# Setup Instructions
-Clone the repository
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/team-management-app.git
+   cd team-management-app
+   ```
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/team-management-app.git
-cd team-management-app
-Install backend dependencies
+2. **Install backend dependencies**
+   ```bash
+   npm install
+   ```
 
-bash
-Copy
-Edit
-npm install
-Install frontend dependencies
+3. **Install frontend dependencies**
+   ```bash
+   cd client
+   npm install
+   ```
 
-bash
-Copy
-Edit
-cd client
-npm install
-Create an uploads directory in the root folder
+4. **Create an uploads directory**
+   ```bash
+   mkdir uploads
+   ```
 
-bash
-Copy
-Edit
-mkdir uploads
-Start MongoDB service on your machine
+5. **Start MongoDB service** on your machine
 
-# Running the Application
-Start the backend server (from the root directory):
+---
 
-bash
-Copy
-Edit
+## 🚀 Running the Application
+
+Start the backend server:
+```bash
 npm run dev
-Start the frontend development server (from the client directory):
+```
 
-bash
-Copy
-Edit
+Start the frontend development server:
+```bash
 cd client
 npm start
-Open your browser and navigate to:
-http://localhost:3000
+```
 
-# API Endpoints
-GET /api/members – Get all team members
+Visit: [http://localhost:3000](http://localhost:3000)
 
-GET /api/members/:id – Get a specific team member
+---
 
-POST /api/members – Add a new team member
+## 📡 API Endpoints
 
-# Technologies Used
-Frontend
-React.js
+- `GET /api/members` – Fetch all team members  
+- `GET /api/members/:id` – Fetch a specific team member  
+- `POST /api/members` – Add a new team member  
 
-Material-UI
+---
 
-React Router
+## 🧰 Technologies Used
 
-Axios
+### Frontend
+- React.js  
+- Material-UI  
+- React Router  
+- Axios  
 
-Backend
-Node.js
-
-Express
-
-MongoDB
-
-Multer (for file uploads)
+### Backend
+- Node.js  
+- Express  
+- MongoDB  
+- Multer (file uploads)
