@@ -6,12 +6,12 @@ A full-stack web application for managing team members, built with **React.js**,
 
 ## ✨ Features
 
-- 📸 Add new team members with profile images  
-- 🧱 View all team members in a grid layout  
-- 🔍 View detailed information about each team member  
-- 📱 Responsive design using **Material-UI**  
-- 📂 Image upload functionality  
-- 🌐 RESTful API endpoints  
+-  Add new team members with profile images  
+-  View all team members in a grid layout  
+-  View detailed information about each team member  
+-  Responsive design using **Material-UI**  
+-  Image upload functionality  
+-  RESTful API endpoints  
 
 ---
 
